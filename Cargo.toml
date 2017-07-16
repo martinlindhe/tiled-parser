@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = ["Martin Lindhe <martin@ubique.se>"]
 license = "MIT"
 description = "Tiled JSON deserializer and serializer"
-repository = "https://github.com/martinlindhe/tiled"
+repository = "https://github.com/martinlindhe/tiled-parser"
 
 [dependencies]
 serde = "1.0"
