@@ -2,7 +2,7 @@
 
 [![Travis-CI](https://api.travis-ci.org/martinlindhe/tiled-parser.svg)](https://travis-ci.org/martinlindhe/tiled-parser) [![Crates.io](https://img.shields.io/crates/v/tiled-parser.svg)](https://crates.io/crates/tiled-parser)
 
-Deserializes and serializes [Tiled](http://www.mapeditor.org/) .json files, using serde_json
+Deserializes and serializes [Tiled](http://www.mapeditor.org/) .json maps, using serde_json
 
 
 ### Usage
