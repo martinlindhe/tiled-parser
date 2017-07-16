@@ -1,6 +1,6 @@
 [package]
 name = "tiled-parser"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Martin Lindhe <martin@ubique.se>"]
 license = "MIT"
 description = "Tiled JSON deserializer and serializer"

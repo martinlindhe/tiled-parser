@@ -4,9 +4,9 @@ extern crate serde_json;
 #[macro_use]
 extern crate serde_derive;
 
-mod level;
-mod layer;
-mod tileset;
+pub mod level;
+pub mod layer;
+pub mod tileset;
 
 pub fn load_level(s: &str) -> level::Level {
     serde_json::from_str(&s).unwrap()
