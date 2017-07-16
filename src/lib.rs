@@ -17,6 +17,8 @@ fn test_load_level() {
     let data = include_str!("../test-data/levels/super_mario.json");
     let mut level = load_level(data);
 
+    assert_eq!("tilelayer", level.layers[0]._type);
+
     level.width = 128;
 
     // serialize

@@ -11,11 +11,14 @@ pub struct Layer {
     pub height: u32,
     pub x: f32,
     pub y: f32,
-    
-    // for tile layers
+
+    #[serde(rename = "type")]
+    pub _type: String,
+
+    // for type = "tilelayer"
     pub data: Vec<u32>,
 
-    // for object layers
+    // for type = "objectlayer"
     pub draworder: String,
     pub objects: Vec<Object>,
 }
